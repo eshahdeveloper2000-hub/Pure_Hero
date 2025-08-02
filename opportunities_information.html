@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PureHeroes - Opportunities</title>
+
+    <!-- Bootstrap Styling CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icon CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Chrome icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/images/chromeicon.png"
+    />
+
+    <style>
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logoimg.png" alt="PureHeroes Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">About PureHeroes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="opportunities.html">Opportunities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-2">
+            <button
+              style="width: 130px; background-color: #3b8ec4"
+              class="btn btn-custom btn-rounded me-2"
+            >
+              Login
+            </button>
+            <button
+              style="width: 150px; background-color: #195f90"
+              class="btn btn-custom btn-rounded btn-volunteer me-2"
+            >
+              Volunteer Now
+            </button>
+
+            <!-- Language dropdown start -->
+            <div class="dropdown">
+              <button
+                class="dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                En
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+              </ul>
+            </div>
+            <!-- Language Dropdown end  -->
+            <!-- Navbar End -->
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Volunteer Information Start -->
+    <div class="container" style="margin-top: 180px">
+      <div class="volunteer-card">
+        <div class="row g-4">
+          <div class="col-md-5">
+            <img
+              style="margin-top: 7px"
+              src="assets/images/maincard1.png"
+              alt="Senior Citizens"
+              class="card-img"
+            />
+          </div>
+
+          <div class="col-md-7">
+            <div class="position-relative mb-3">
+              <div
+                style="margin-left: -450px !important; margin-top: 10px"
+                class="card-date"
+              >
+                22 / Aug
+              </div>
+            </div>
+            <h5 class="card-title">
+              Temporary Alternative Care Service For Senior Citizens
+            </h5>
+            <p style="margin-top: 12px" class="text-muted">
+              <small>By PureHealth Group</small>
+            </p>
+
+            <div
+              class="d-flex justify-content-between align-items-center mb-3 flex-wrap"
+            >
+              <div style="margin-top: 8px" class="card-tags mb-2">
+                <span>Healthcare</span>
+                <span>Abu Dhabi</span>
+                <span>In Person</span>
+              </div>
+              <a href="#" class="btn btn-primary btn-small">Volunteer Now</a>
+            </div>
+
+            <div
+              style="width: 505px; margin-top: 30px"
+              class="progress mb-3"
+              id="progress-line"
+            >
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 51%"
+                aria-valuenow="83"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p
+              style="color: #505050; font-weight: 500; margin-top: 20px"
+              class="fw-bold"
+            >
+              Volunteers Required 83/100
+            </p>
+          </div>
+        </div>
+
+        <div
+          style="margin-top: -18px !important"
+          class="row mt-0 justify-content-end"
+        >
+          <div class="col-md-6">
+            <div
+              style="
+                margin-bottom: 10px;
+                width: 600px;
+                margin-left: -100px !important;
+              "
+              class="accordion"
+              id="volunteerAccordion"
+            >
+              <div id="accordiam-items" class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed custom-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#v1"
+                  >
+                    Opportunity Details
+                    <span class="arrow-icon"></span>
+                  </button>
+                </h2>
+                <div
+                  id="v1"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#volunteerAccordion"
+                >
+                  <div class="accordion-body">
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    <br />
+                    <br />
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                  </div>
+                </div>
+              </div>
+
+              <div id="accordiam-items" class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed custom-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#v2"
+                  >
+                    Selection Criteria
+                    <span class="arrow-icon"></span>
+                  </button>
+                </h2>
+                <div
+                  id="v2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#volunteerAccordion"
+                >
+                  <div class="accordion-body">
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    <br />
+                    <br />
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                  </div>
+                </div>
+              </div>
+
+              <div id="accordiam-items" class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed custom-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#v3"
+                  >
+                    Coordinator Details
+                    <span class="arrow-icon"></span>
+                  </button>
+                </h2>
+                <div
+                  id="v3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#volunteerAccordion"
+                >
+                  <div class="accordion-body">
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    <br />
+                    <br />
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                  </div>
+                </div>
+              </div>
+
+              <div id="accordiam-items" class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed custom-toggle"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#v4"
+                  >
+                    Location
+                    <span class="arrow-icon"></span>
+                  </button>
+                </h2>
+                <div
+                  id="v4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#volunteerAccordion"
+                >
+                  <div class="accordion-body">
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    <br />
+                    <br />
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                    Volunteer with us in investing your time to make a positive
+                    change in the community by participating in an initiative
+                    that aims to provide social care to senior citizens
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Volunteer Information End -->
+
+    <!-- May Like Start -->
+    <div style="background-color: white; padding-bottom: 10px !important">
+      <div class="container py-5">
+        <h5 style="color: #195f90; margin-top: 10px" class="text-primary">
+          You May Also Like
+        </h5>
+      </div>
+
+      <div style="margin-top: 130px !important" class="container my-5">
+        <div class="row g-5">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-date">22 / Aug</div>
+              <img
+                src="assets/images/maincard1.png"
+                class="card-img-top"
+                alt="Senior Citizens"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Temporary Alternative Care Service For Senior Citizens
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted">By PureHealth Group</small>
+                </p>
+                <p class="card-text">
+                  Volunteer with us in investing your time to make a positive
+                  change in the community by participating in an initiative that
+                  aims to provide social care to senior citizens.
+                </p>
+                <div class="card-tags mb-3">
+                  <span>Healthcare</span>
+                  <span>Abu Dhabi</span>
+                  <span>In Person</span>
+                </div>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 83%"
+                    aria-valuenow="83"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <p class="mb-3">Volunteers Required 83/100</p>
+                <div class="d-flex justify-content-between">
+                  <a
+                    href="opportunities_information.html"
+                    class="btn btn-outline-primary btn-small"
+                    >Read More</a
+                  >
+                  <a href="#" class="btn btn-primary btn-small"
+                    >Volunteer Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-date">22 / Aug</div>
+              <img
+                src="assets/images/maincard3.png"
+                class="card-img-top"
+                alt="Senior Citizens"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Al Qana Community Wellness Challange</h5>
+                <p class="card-text">
+                  <small class="text-muted">By Active Abu Dhabi</small>
+                </p>
+                <p class="card-text">
+                  Are you passionate about wellness and community engagement?
+                  Join us as a volunteer at Al -Qana  community wellness
+                  Challenge.
+                </p>
+                <div class="card-tags mb-3">
+                  <span>Community</span>
+                  <span>Abu Dhabi</span>
+                  <span>In Person</span>
+                </div>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 83%"
+                    aria-valuenow="83"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <p class="mb-3">Volunteers Required 543/1000</p>
+                <div class="d-flex justify-content-between">
+                  <a
+                    href="opportunities_information.html"
+                    class="btn btn-outline-primary btn-small"
+                    >Read More</a
+                  >
+                  <a href="#" class="btn btn-primary btn-small"
+                    >Volunteer Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-date">22 / Aug</div>
+              <img
+                src="assets/images/maincard2.png"
+                class="card-img-top"
+                alt="Blood Bank"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blood Bank Services</h5>
+                <p class="card-text">
+                  <small class="text-muted">By SEHA</small>
+                </p>
+                <p class="card-text">
+                  Blood Bank Services affiliated to Abu Dhabi Health Services
+                  Company (SEHA), is excited to invite passionate individuals to
+                  volunteer and make a meaningful impact on the community.
+                </p>
+                <div class="card-tags mb-3">
+                  <span>Healthcare</span>
+                  <span>Abu Dhabi</span>
+                  <span>In Person</span>
+                </div>
+                <div class="progress mb-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 31%"
+                    aria-valuenow="124"
+                    aria-valuemin="0"
+                    aria-valuemax="400"
+                  ></div>
+                </div>
+                <p class="mb-3">Volunteers Required 124/400</p>
+                <div class="d-flex justify-content-between">
+                  <a
+                    href="opportunities_information.html"
+                    class="btn btn-outline-primary btn-small"
+                    >Read More</a
+                  >
+                  <a href="#" class="btn btn-primary btn-small"
+                    >Volunteer Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- May like End -->
+
+    <!-- Contact Section Start -->
+    <main style="flex: 1"></main>
+    <div class="container py-5">
+      <div class="row">
+        <!-- FAQ Accordion -->
+        <div class="col-md-6 mb-1 main-title">
+          <h6 class="faq-title">Questions & Contact</h6>
+          <h5 class="mb-3">Frequently Asked Questions</h5>
+
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-toggle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q1"
+                >
+                  Who Can Become A PureHero?
+                  <span class="arrow-icon"></span>
+                </button>
+              </h2>
+              <div
+                id="q1"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. While some roles may require specific medical
+                  qualifications, there are numerous opportunities for
+                  individuals without a healthcare background to contribute
+                  meaningfully to community health initiatives.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-toggle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q2"
+                >
+                  Can I Volunteer With PureHeroes If I Am Not A Healthcare
+                  Professional?
+                  <span class="arrow-icon"></span>
+                </button>
+              </h2>
+              <div
+                id="q2"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. While some roles may require specific medical
+                  qualifications, there are numerous opportunities for
+                  individuals without a healthcare background to contribute
+                  meaningfully to community health initiatives.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-toggle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q3"
+                >
+                  How Do I Track And Report My Volunteer Hours?
+                  <span class="arrow-icon"></span>
+                </button>
+              </h2>
+              <div
+                id="q3"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. While some roles may require specific medical
+                  qualifications, there are numerous opportunities for
+                  individuals without a healthcare background to contribute
+                  meaningfully to community health initiatives.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-toggle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q4"
+                >
+                  Are There Any Health And Safety Protocols I Should Be Aware
+                  Of?
+                  <span class="arrow-icon"></span>
+                </button>
+              </h2>
+              <div
+                id="q4"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. While some roles may require specific medical
+                  qualifications, there are numerous opportunities for
+                  individuals without a healthcare background to contribute
+                  meaningfully to community health initiatives.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed custom-toggle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#q5"
+                >
+                  What If The Opportunity Requires Training I Don’t Have? Will
+                  PureHeroes Train Me?
+                  <span class="arrow-icon"></span>
+                </button>
+              </h2>
+              <div
+                id="q5"
+                class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  Absolutely. While some roles may require specific medical
+                  qualifications, there are numerous opportunities for
+                  individuals without a healthcare background to contribute
+                  meaningfully to community health initiatives.
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="mt-3 view-all-btn">View All</button>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <div class="contact-box">
+            <h6>Contact Us</h6>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="mb-3 d-flex gap-2">
+                <input
+                  type="text"
+                  class="form-control"
+                  value="+971"
+                  style="max-width: 80px"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Mobile Number"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="3"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer style="margin-top: -30px !important" class="bg-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="footer-logo">
+          <img
+            src="assets/images/logoimg.png"
+            alt="PureHeroes Logo"
+            style="height: 40px; margin-left: -20px !important"
+          />
+        </div>
+
+        <div class="text-muted small">
+          All rights reserved by <strong>PureHeroes.ae</strong>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Script Links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+
+    <script src="style.js"></script>
+  </body>
+</html>
